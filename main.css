@@ -1,6 +1,11 @@
 * {
 
 }
+.body {
+    background-color: black;
+    color: white;
+
+}
 
 .container {
     display: flex;
@@ -8,3 +13,56 @@
     width:50vw ;
 
 }
+
+.heading {
+    text-align: center;
+    color:skyblue;
+
+}
+.discription {
+    text-align: center;
+    color: grey;
+}
+.bill-amount {
+    font-weight: bold;
+    padding: 2rem; color: salmon;
+}
+.cash-given {
+    font-weight: bold;
+    padding: 2rem;
+    color: salmon;
+}
+
+.change-table {
+    padding: 2rem;
+    font-weight: bold;
+
+}
+
+.button { 
+    padding: 0.2rem;
+    color: white;
+    background-color:orange;
+    font-weight: bold;
+}
+.return-change {
+    color:lightgreen ;
+    padding: 2rem;
+}
+ .tr  {
+
+        color: khaki;
+    }
+.table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    border-style:dotted;
+
+
+}  
+.th, td {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+  }  
